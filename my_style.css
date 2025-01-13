@@ -1,0 +1,534 @@
+
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+ 
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #6c757d;
+  text-align: left;
+  background-color: #ffffff;
+}
+ 
+a {
+  color: #0BCEAF;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+a:hover {
+  color: #078571;
+  text-decoration: underline;
+}
+ 
+h1,h2,h3,h4,h5,h6,p{
+  color: #6c757d !important;
+} 
+
+ 
+
+/********** Template CSS ************/
+
+
+.text-stroke-header {
+  -webkit-text-stroke: 3px #ffffff;
+  color: transparent;
+}
+
+.btn {
+  padding: 10px 25px;
+  border-radius: 100px;
+}
+
+.btn-social {
+  width: 45px;
+  height: 45px;
+  padding-left: 0;
+  padding-right: 0;
+  text-align: center;
+  border-radius: 45px;
+}
+
+.form-control {
+  border-radius: 25px;
+}
+
+
+
+
+/* ================ Navigation Menu ====================*/
+
+
+.navbar-light {
+  display: none;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  padding: 25px 10px;
+  color: #343a40;
+  font-weight: 500;
+  outline: none;
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link.active {
+  color: #0BCEAF;
+}
+
+@media (max-width: 991.98px) {
+  .navbar-light .navbar-nav .nav-link {
+    padding: 10px 0;
+  }
+}
+
+
+/*===================== Hero section ======================*/
+
+.about-img{
+ margin-left: -100px;
+ right: -60px;
+}
+
+.display-1{
+  font-size: 160px;
+  font-weight: 1000;
+  
+}
+ 
+.position-absolute{
+  font-weight: 700;
+  
+}
+
+.typed-cursor {
+  font-size: 45px;
+  color: #ffffff;
+}
+
+.blue{
+  background-color: #1c5ce6;
+  color: #ffffff;
+}
+.btn{
+  border: 2px solid rgb(29, 105, 247);
+} 
+.btn-white{
+  background-color: #ffffff;
+  border:2px solid #ffffff;
+}
+.btn-blue{
+  border: 2.4px solid #ffffff;
+  color: #ffffff;
+}
+@media (max-width: 700px) {
+  .about-img{
+    margin-left: 20px;
+    right: 0px;
+    top: 30px;
+   }
+}
+/*===================== Progress Bar ====================*/
+
+.progress {
+  border-radius: 10px;
+}
+
+.progress .progress-bar {
+  width: 0px;
+  border-radius: 10px;
+  transition: 2s;
+}
+
+
+/* =================== Queality ======================*/
+.ex-me{
+  margin-top: 35px;
+}
+
+
+/* =================== Service Section ==================*/
+.service-h4{
+  padding-bottom: 30px;
+}
+
+.service-icon {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 60px;
+}
+
+.service-box{
+  box-shadow: 0px 1px 7px rgba(0, 0, 0, 0.1);  
+  margin-left: 20px;
+  padding: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.service-box:hover{
+  box-shadow: 0px 1px 13px rgba(27, 27, 27, 0.705); 
+ 
+}
+/* =================== Portfolio section ==================*/
+
+
+.portfolio-item .portfolio-btn {
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 50%;
+  left: 50%;
+  border-radius: 4px;
+  opacity: 0;
+  transition: .5s;
+}
+
+.portfolio-item:hover .portfolio-btn {
+  opacity: 1;
+  width: calc(100% - 60px);
+  height: calc(100% - 60px);
+  top: 30px;
+  left: 30px;
+}
+
+/* ====================== Testimonial ================*/
+.testimonial-carousel .text-center{
+  background-color: #eaecf0d0;
+  border-radius: 20px;
+  margin: 20px;
+
+}
+.testimonial-carousel .text-center h4{
+
+}
+
+.testimonial-carousel .owl-dots {
+  margin-top: 25px;
+  text-align: center;
+}
+
+.testimonial-carousel .owl-dot {
+  display: inline-block;
+  margin: 0 5px;
+  width: 12px;
+  height: 12px;
+  border-radius: 10px;
+  background: #dddddd;
+}
+
+.testimonial-carousel .owl-dot.active {
+  background: #0BCEAF;
+}
+
+
+
+/* ========================== Contact Us ========================*/
+
+.contact-form .help-block ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+
+/*====================== Back to buttom ==================*/
+
+.scroll-to-bottom {
+  position: fixed;
+  width: 20px;
+  left: calc(50% - 10px);
+  bottom: 30px;
+  z-index: 11;
+  animation: action 1s infinite alternate;
+}
+
+.back-to-top {
+  position: fixed;
+  display: none;
+  width: 30px;
+  text-align: center;
+  right: 30px;
+  bottom: 30px;
+  z-index: 11;
+  animation: action 1s infinite alternate;
+}
+
+@keyframes action {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-15px);
+  }
+}
+
+/****************/
+.switch {
+  --circle-dim: 1.4em;
+  font-size: 17px;
+  position: relative;
+  display: inline-block;
+  width: 3.5em;
+  height: 2em;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #f5aeae;
+  transition: .4s;
+  border-radius: 30px;
+}
+
+.slider-card {
+  position: absolute;
+  content: "";
+  height: var(--circle-dim);
+  width: var(--circle-dim);
+  border-radius: 20px;
+  left: 0.3em;
+  bottom: 0.3em;
+  transition: .4s;
+  pointer-events: none;
+}
+
+.slider-card-face {
+  position: absolute;
+  inset: 0;
+  backface-visibility: hidden;
+  perspective: 1000px;
+  border-radius: 50%;
+  transition: .4s transform;
+}
+
+.slider-card-front {
+  background-color: #DC3535;
+}
+
+.slider-card-back {
+  background-color: #379237;
+  transform: rotateY(180deg);
+}
+
+input:checked ~ .slider-card .slider-card-back {
+  transform: rotateY(0);
+}
+
+input:checked ~ .slider-card .slider-card-back  body{
+  background-color: black;
+
+}
+input:checked ~ .slider-card .slider-card-front {
+  transform: rotateY(-180deg);
+}
+
+input:checked ~ .slider-card {
+  transform: translateX(1.5em);
+}
+
+input:checked ~ .slider {
+  background-color: #9ed99c;
+}
+
+
+
+/***********/
+/* The switch - the box around the slider */
+#theme-toggle-button {
+  font-size: 17px;
+  position: relative;
+  display: inline-block;
+  width: 3em;
+  cursor: pointer;
+}
+/* Change background color for night */
+body.night-mode{
+  background-color: #000000; /* Black for night */
+}
+#aya.white{
+  fon
+}
+
+
+/* Hide default HTML checkbox */
+#toggle {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+#container,
+#patches,
+#stars,
+#button,
+#sun,
+#moon,
+#cloud {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 0.25s;
+}
+
+/* night sky background */
+#toggle:checked + svg #container {
+  fill: #2b4360;
+}
+
+/* move button to right when checked */
+#toggle:checked + svg #button {
+  transform: translate(28px, 2.333px);
+}
+
+/* show/hide sun and moon based on checkbox state */
+#sun {
+  opacity: 1;
+}
+
+#toggle:checked + svg #sun {
+  opacity: 0;
+}
+
+#moon {
+  opacity: 0;
+}
+
+#toggle:checked + svg #moon {
+  opacity: 1;
+}
+
+/* show or hide background items on checkbox state */
+#cloud {
+  opacity: 1;
+}
+
+#toggle:checked + svg #cloud {
+  opacity: 0;
+}
+
+#stars {
+  opacity: 0;
+}
+
+#toggle:checked + svg #stars {
+  opacity: 1;
+}
+/**************/
+
+/******.slide-left-div*******/
+.slide-left-div {
+  
+  position: relative;
+  left: -200px; /* Initially positioned to the right */
+  transition: left 0.8s ease;
+}
+
+/* Apply the animation on scroll */
+.slide-left-div.slide {
+  left: 0; /* Slide in from the right (visible) */
+}
+/******.slide-left-div 2*******/
+.slide-left-div2 {
+  
+  position: relative;
+  left: -200px; /* Initially positioned to the right */
+  transition: left 0.8s ease;
+}
+
+/* Apply the animation on scroll */
+.slide-left-div2.slide {
+  left: 0; /* Slide in from the right (visible) */
+}
+
+/* for all social containers*/
+.socialContainer {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background-color: rgb(44, 44, 44);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  transition-duration: .3s;
+}
+/* instagram*/
+.containerOne:hover {
+  background-color: #d62976;
+  transition-duration: .3s;
+}
+/* twitter*/
+.containerTwo:hover {
+  background-color: #00acee;
+  transition-duration: .3s;
+}
+/* linkdin*/
+.containerThree:hover {
+  background-color: #0072b1;
+  transition-duration: .3s;
+}
+/* Whatsapp*/
+.containerFour:hover {
+  background-color: #128C7E;
+  transition-duration: .3s;
+}
+
+.socialContainer:active {
+  transform: scale(0.9);
+  transition-duration: .3s;
+}
+
+.socialSvg {
+  width: 17px;
+}
+
+.socialSvg path {
+  fill: rgb(255, 255, 255);
+}
+
+.socialContainer:hover .socialSvg {
+  animation: slide-in-top 0.3s both;
+}
+
+@keyframes slide-in-top {
+  0% {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+

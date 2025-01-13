@@ -1,0 +1,90 @@
+[01-Sep-2023 12:50:48 UTC] PHP Notice:  Undefined variable: to in /home1/aiclouds/public_html/A_Pfolio/test.php on line 10
+[01-Sep-2023 12:50:48 UTC] PHP Notice:  Undefined variable: subject in /home1/aiclouds/public_html/A_Pfolio/test.php on line 10
+[01-Sep-2023 12:50:48 UTC] PHP Notice:  Undefined variable: body in /home1/aiclouds/public_html/A_Pfolio/test.php on line 10
+[01-Sep-2023 12:50:48 UTC] PHP Notice:  Undefined variable: header in /home1/aiclouds/public_html/A_Pfolio/test.php on line 10
+[01-Sep-2023 12:50:48 UTC] PHP Warning:  mail(): headers parameter must be string or array in /home1/aiclouds/public_html/A_Pfolio/test.php on line 10
+[01-Sep-2023 13:03:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function incude() in /home1/aiclouds/public_html/A_Pfolio/index2.php:730
+Stack trace:
+#0 {main}
+  thrown in /home1/aiclouds/public_html/A_Pfolio/index2.php on line 730
+[01-Sep-2023 13:04:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function incude() in /home1/aiclouds/public_html/A_Pfolio/index2.php:730
+Stack trace:
+#0 {main}
+  thrown in /home1/aiclouds/public_html/A_Pfolio/index2.php on line 730
+[01-Sep-2023 14:00:55 UTC] PHP Warning:  mail() expects parameter 5 to be string, array given in /home1/aiclouds/public_html/A_Pfolio/index2.php on line 14
+[01-Sep-2023 14:01:48 UTC] PHP Warning:  mail(): headers parameter must be string or array in /home1/aiclouds/public_html/A_Pfolio/index2.php on line 18
+[03-Dec-2024 10:26:52 UTC] PHP Warning:  Undefined variable $name in /home1/aiclouds/public_html/A_Pfolio/index2.php on line 14
+[03-Dec-2024 10:26:52 UTC] PHP Warning:  Undefined variable $email in /home1/aiclouds/public_html/A_Pfolio/index2.php on line 14
+[03-Dec-2024 10:26:52 UTC] PHP Warning:  Undefined variable $m_subject in /home1/aiclouds/public_html/A_Pfolio/index2.php on line 14
+[03-Dec-2024 10:26:52 UTC] PHP Warning:  Undefined variable $email in /home1/aiclouds/public_html/A_Pfolio/index2.php on line 15
+[03-Dec-2024 10:26:52 UTC] PHP Warning:  Undefined variable $email in /home1/aiclouds/public_html/A_Pfolio/index2.php on line 16
+[03-Dec-2024 10:29:33 UTC] PHP Warning:  Undefined variable $name in /home1/aiclouds/public_html/A_Pfolio/index2.php on line 14
+[03-Dec-2024 10:29:33 UTC] PHP Warning:  Undefined variable $email in /home1/aiclouds/public_html/A_Pfolio/index2.php on line 14
+[03-Dec-2024 10:29:33 UTC] PHP Warning:  Undefined variable $m_subject in /home1/aiclouds/public_html/A_Pfolio/index2.php on line 14
+[03-Dec-2024 10:29:33 UTC] PHP Warning:  Undefined variable $email in /home1/aiclouds/public_html/A_Pfolio/index2.php on line 15
+[03-Dec-2024 10:29:33 UTC] PHP Warning:  Undefined variable $email in /home1/aiclouds/public_html/A_Pfolio/index2.php on line 16
+[03-Dec-2024 10:29:38 UTC] PHP Warning:  Undefined variable $name in /home1/aiclouds/public_html/A_Pfolio/index2.php on line 14
+[03-Dec-2024 10:29:38 UTC] PHP Warning:  Undefined variable $email in /home1/aiclouds/public_html/A_Pfolio/index2.php on line 14
+[03-Dec-2024 10:29:38 UTC] PHP Warning:  Undefined variable $m_subject in /home1/aiclouds/public_html/A_Pfolio/index2.php on line 14
+[03-Dec-2024 10:29:38 UTC] PHP Warning:  Undefined variable $email in /home1/aiclouds/public_html/A_Pfolio/index2.php on line 15
+[03-Dec-2024 10:29:38 UTC] PHP Warning:  Undefined variable $email in /home1/aiclouds/public_html/A_Pfolio/index2.php on line 16
+[16-Dec-2024 11:39:59 Africa/Cairo] PHP Warning:  move_uploaded_file(uploads/itil_v4.jpeg): Failed to open stream: No such file or directory in /home1/aiclouds/public_html/A_Pfolio/testimonial.php on line 19
+[16-Dec-2024 11:39:59 Africa/Cairo] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/phpBVDamF&quot; to &quot;uploads/itil_v4.jpeg&quot; in /home1/aiclouds/public_html/A_Pfolio/testimonial.php on line 19
+[16-Dec-2024 11:39:59 Africa/Cairo] PHP Warning:  Undefined variable $conn in /home1/aiclouds/public_html/A_Pfolio/testimonial.php on line 27
+[16-Dec-2024 11:39:59 Africa/Cairo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home1/aiclouds/public_html/A_Pfolio/testimonial.php:27
+Stack trace:
+#0 {main}
+  thrown in /home1/aiclouds/public_html/A_Pfolio/testimonial.php on line 27
+[16-Dec-2024 11:45:32 Africa/Cairo] PHP Warning:  Undefined variable $conn in /home1/aiclouds/public_html/A_Pfolio/index2.php on line 935
+[16-Dec-2024 11:45:32 Africa/Cairo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home1/aiclouds/public_html/A_Pfolio/index2.php:935
+Stack trace:
+#0 {main}
+  thrown in /home1/aiclouds/public_html/A_Pfolio/index2.php on line 935
+[16-Dec-2024 11:47:32 Africa/Cairo] PHP Fatal error:  Uncaught mysqli_sql_exception: Column count doesn't match value count at row 1 in /home1/aiclouds/public_html/A_Pfolio/index2.php:935
+Stack trace:
+#0 /home1/aiclouds/public_html/A_Pfolio/index2.php(935): mysqli->prepare()
+#1 {main}
+  thrown in /home1/aiclouds/public_html/A_Pfolio/index2.php on line 935
+[16-Dec-2024 11:48:30 Africa/Cairo] PHP Fatal error:  Uncaught mysqli_sql_exception: Column count doesn't match value count at row 1 in /home1/aiclouds/public_html/A_Pfolio/index2.php:935
+Stack trace:
+#0 /home1/aiclouds/public_html/A_Pfolio/index2.php(935): mysqli->prepare()
+#1 {main}
+  thrown in /home1/aiclouds/public_html/A_Pfolio/index2.php on line 935
+[16-Dec-2024 11:55:29 Africa/Cairo] PHP Fatal error:  Uncaught mysqli_sql_exception: Column count doesn't match value count at row 1 in /home1/aiclouds/public_html/A_Pfolio/index2.php:940
+Stack trace:
+#0 /home1/aiclouds/public_html/A_Pfolio/index2.php(940): mysqli->prepare()
+#1 {main}
+  thrown in /home1/aiclouds/public_html/A_Pfolio/index2.php on line 940
+[16-Dec-2024 12:01:17 Africa/Cairo] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home1/aiclouds/public_html/A_Pfolio/index2.php:949
+Stack trace:
+#0 {main}
+  thrown in /home1/aiclouds/public_html/A_Pfolio/index2.php on line 949
+[16-Dec-2024 12:09:58 Africa/Cairo] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?)' at line 4 in /home1/aiclouds/public_html/A_Pfolio/index2.php:942
+Stack trace:
+#0 /home1/aiclouds/public_html/A_Pfolio/index2.php(942): mysqli->query()
+#1 {main}
+  thrown in /home1/aiclouds/public_html/A_Pfolio/index2.php on line 942
+[16-Dec-2024 12:10:25 Africa/Cairo] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?)' at line 4 in /home1/aiclouds/public_html/A_Pfolio/index2.php:942
+Stack trace:
+#0 /home1/aiclouds/public_html/A_Pfolio/index2.php(942): mysqli->query()
+#1 {main}
+  thrown in /home1/aiclouds/public_html/A_Pfolio/index2.php on line 942
+[16-Dec-2024 12:11:25 Africa/Cairo] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?)' at line 4 in /home1/aiclouds/public_html/A_Pfolio/index2.php:942
+Stack trace:
+#0 /home1/aiclouds/public_html/A_Pfolio/index2.php(942): mysqli->query()
+#1 {main}
+  thrown in /home1/aiclouds/public_html/A_Pfolio/index2.php on line 942
+[16-Dec-2024 12:12:17 Africa/Cairo] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home1/aiclouds/public_html/A_Pfolio/index2.php:950
+Stack trace:
+#0 {main}
+  thrown in /home1/aiclouds/public_html/A_Pfolio/index2.php on line 950
+[16-Dec-2024 12:14:26 Africa/Cairo] PHP Fatal error:  Uncaught Error: Call to a member function close() on bool in /home1/aiclouds/public_html/A_Pfolio/index2.php:961
+Stack trace:
+#0 {main}
+  thrown in /home1/aiclouds/public_html/A_Pfolio/index2.php on line 961
+[16-Dec-2024 12:23:53 Africa/Cairo] PHP Warning:  Undefined array key "clientName" in /home1/aiclouds/public_html/A_Pfolio/index2.php on line 984
+[16-Dec-2024 12:23:53 Africa/Cairo] PHP Warning:  Undefined array key "clientProfession" in /home1/aiclouds/public_html/A_Pfolio/index2.php on line 985
+[16-Dec-2024 12:24:57 Africa/Cairo] PHP Warning:  Undefined array key "clientName" in /home1/aiclouds/public_html/A_Pfolio/index2.php on line 984
+[16-Dec-2024 12:24:57 Africa/Cairo] PHP Warning:  Undefined array key "clientProfession" in /home1/aiclouds/public_html/A_Pfolio/index2.php on line 985
+[16-Dec-2024 12:26:13 Africa/Cairo] PHP Warning:  Undefined array key "clientName" in /home1/aiclouds/public_html/A_Pfolio/index2.php on line 984
+[16-Dec-2024 12:26:13 Africa/Cairo] PHP Warning:  Undefined array key "clientProfession" in /home1/aiclouds/public_html/A_Pfolio/index2.php on line 985
